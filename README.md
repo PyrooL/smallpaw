@@ -8,5 +8,5 @@ Latest render of PCB:
 ![pcb](pcb.png)
 
 To-do:
-[] Mounting holes
-[] Connect r/c to MCU
+[ ] Mounting holes
+[ ] Connect r/c to MCU
