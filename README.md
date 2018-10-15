@@ -9,6 +9,6 @@ Latest render of PCB:
 
 To-do:
 
-[] Mounting holes
+- [ ] Mounting holes
 
-[] Connect r/c to MCU
+- [ ] Connect r/c to MCU
