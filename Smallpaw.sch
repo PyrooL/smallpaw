@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:Smallpaw-cache
-LIBS:Voyager65-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -2635,4 +2634,22 @@ Text Label 4400 3250 2    50   ~ 0
 C2
 Text Label 4400 3050 2    50   ~ 0
 R4
+Text Label 6550 1750 0    50   ~ 0
+C0
+Text Label 6550 1850 0    50   ~ 0
+C1
+Text Label 6550 1650 0    50   ~ 0
+R0
+Text Label 6550 1550 0    50   ~ 0
+R1
+Text Label 6550 1350 0    50   ~ 0
+R2
+Text Label 6550 1450 0    50   ~ 0
+R3
+Text Label 6550 1950 0    50   ~ 0
+R4
+Text Label 6550 2450 0    50   ~ 0
+R6
+Text Label 6550 2350 0    50   ~ 0
+R5
 $EndSCHEMATC
