@@ -1,68 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_C_Small
+# ATMEGA32U4-keyboard_parts
 #
-DEF Device_C_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "Device_C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_D
-#
-DEF Device_D D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_D" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 50 -50 -50 N
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R
-#
-DEF Device_R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Smallpaw-rescue_ATMEGA32U4-keyboard_parts
-#
-DEF Smallpaw-rescue_ATMEGA32U4-keyboard_parts U 0 40 Y Y 1 F N
+DEF ATMEGA32U4-keyboard_parts U 0 40 Y Y 1 F N
 F0 "U" 0 -1250 60 H V C CNN
-F1 "Smallpaw-rescue_ATMEGA32U4-keyboard_parts" 0 1250 60 H V C CNN
+F1 "ATMEGA32U4-keyboard_parts" 0 1250 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -114,11 +57,11 @@ X PB1/SCK 9 -1050 250 300 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Smallpaw-rescue_KEYSW-keyboard_parts
+# KEYSW-keyboard_parts
 #
-DEF ~Smallpaw-rescue_KEYSW-keyboard_parts K? 0 40 Y Y 1 F N
+DEF ~KEYSW-keyboard_parts K? 0 40 Y Y 1 F N
 F0 "K?" -50 0 60 H V C CNN
-F1 "Smallpaw-rescue_KEYSW-keyboard_parts" 0 -100 60 H I C CNN
+F1 "KEYSW-keyboard_parts" 0 -100 60 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -130,11 +73,11 @@ X ~ 2 -300 0 50 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Smallpaw-rescue_SW_PUSH-keyboard_parts
+# SW_PUSH-keyboard_parts
 #
-DEF Smallpaw-rescue_SW_PUSH-keyboard_parts SW 0 40 N N 1 F N
+DEF SW_PUSH-keyboard_parts SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "Smallpaw-rescue_SW_PUSH-keyboard_parts" 0 -80 50 H V C CNN
+F1 "SW_PUSH-keyboard_parts" 0 -80 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -145,11 +88,11 @@ X 2 2 300 0 200 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# Smallpaw-rescue_USB_mini_micro_B-keyboard_parts
+# USB_mini_micro_B-keyboard_parts
 #
-DEF ~Smallpaw-rescue_USB_mini_micro_B-keyboard_parts J 0 40 Y Y 1 F N
+DEF ~USB_mini_micro_B-keyboard_parts J 0 40 Y Y 1 F N
 F0 "J" -400 -50 60 H V C CNN
-F1 "Smallpaw-rescue_USB_mini_micro_B-keyboard_parts" -150 250 60 H I C CNN
+F1 "USB_mini_micro_B-keyboard_parts" -150 250 60 H I C CNN
 F2 "" -50 0 60 H V C CNN
 F3 "" -50 0 60 H V C CNN
 DRAW
@@ -163,11 +106,11 @@ X SHIELD 6 150 -350 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Smallpaw-rescue_XTAL_GND-keyboard_parts
+# XTAL_GND-keyboard_parts
 #
-DEF Smallpaw-rescue_XTAL_GND-keyboard_parts X 0 40 N N 1 F N
+DEF XTAL_GND-keyboard_parts X 0 40 N N 1 F N
 F0 "X" 0 150 60 H V C CNN
-F1 "Smallpaw-rescue_XTAL_GND-keyboard_parts" 0 -150 60 H V C CNN
+F1 "XTAL_GND-keyboard_parts" 0 -150 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -177,33 +120,6 @@ P 5 0 1 12 -50 50 50 50 50 -50 -50 -50 -50 50 f
 X 1 1 -300 0 200 R 40 40 1 1 P
 X 2 2 300 0 200 L 40 40 1 1 P
 X ~ 3 0 -200 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_VCC
-#
-DEF power_VCC #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VCC" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
-X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

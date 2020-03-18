@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Smallpaw-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L keyboard_parts:ATMEGA32U4 U1
+L Smallpaw-rescue:ATMEGA32U4-keyboard_parts U1
 U 1 1 5B8471AE
 P 5450 2200
 F 0 "U1" H 5475 3537 60  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "~" H 3850 3100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:XTAL_GND X1
+L Smallpaw-rescue:XTAL_GND-keyboard_parts X1
 U 1 1 5B847427
 P 3450 2900
 F 0 "X1" H 3450 3192 60  0000 C CNN
@@ -224,7 +224,7 @@ Wire Wire Line
 	1600 950  1600 1050
 Connection ~ 1600 950 
 $Comp
-L keyboard_parts:SW_PUSH SW1
+L Smallpaw-rescue:SW_PUSH-keyboard_parts SW1
 U 1 1 5B84D769
 P 3650 2350
 F 0 "SW1" H 3650 2605 50  0000 C CNN
@@ -307,7 +307,7 @@ $EndComp
 Wire Wire Line
 	7200 2250 7050 2250
 $Comp
-L keyboard_parts:USB_mini_micro_B J1
+L Smallpaw-rescue:USB_mini_micro_B-keyboard_parts J1
 U 1 1 5B8514CF
 P 3550 1400
 F 0 "J1" H 3436 1691 60  0000 C CNN
@@ -526,7 +526,7 @@ $EndComp
 Wire Wire Line
 	6650 1150 6550 1150
 $Comp
-L keyboard_parts:KEYSW K4
+L Smallpaw-rescue:KEYSW-keyboard_parts K4
 U 1 1 5B867ACA
 P 4400 5550
 F 0 "K4" H 4400 5783 60  0000 C CNN
@@ -537,7 +537,7 @@ F 3 "" H 4400 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K21
+L Smallpaw-rescue:KEYSW-keyboard_parts K21
 U 1 1 5B868D59
 P 4400 6400
 F 0 "K21" H 4400 6633 60  0000 C CNN
@@ -548,7 +548,7 @@ F 3 "" H 4400 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K37
+L Smallpaw-rescue:KEYSW-keyboard_parts K37
 U 1 1 5B868D97
 P 4400 7300
 F 0 "K37" H 4400 7533 60  0000 C CNN
@@ -559,7 +559,7 @@ F 3 "" H 4400 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K53
+L Smallpaw-rescue:KEYSW-keyboard_parts K53
 U 1 1 5B868DD6
 P 4400 8100
 F 0 "K53" H 4400 8333 60  0000 C CNN
@@ -570,7 +570,7 @@ F 3 "" H 4400 8100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K3
+L Smallpaw-rescue:KEYSW-keyboard_parts K3
 U 1 1 5B86A15C
 P 3700 5550
 F 0 "K3" H 3700 5783 60  0000 C CNN
@@ -581,7 +581,7 @@ F 3 "" H 3700 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K20
+L Smallpaw-rescue:KEYSW-keyboard_parts K20
 U 1 1 5B86A162
 P 3700 6400
 F 0 "K20" H 3700 6633 60  0000 C CNN
@@ -592,7 +592,7 @@ F 3 "" H 3700 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K36
+L Smallpaw-rescue:KEYSW-keyboard_parts K36
 U 1 1 5B86A168
 P 3700 7300
 F 0 "K36" H 3700 7533 60  0000 C CNN
@@ -603,7 +603,7 @@ F 3 "" H 3700 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K52
+L Smallpaw-rescue:KEYSW-keyboard_parts K52
 U 1 1 5B86A16E
 P 3700 8100
 F 0 "K52" H 3700 8333 60  0000 C CNN
@@ -614,7 +614,7 @@ F 3 "" H 3700 8100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K2
+L Smallpaw-rescue:KEYSW-keyboard_parts K2
 U 1 1 5B86B569
 P 3000 5550
 F 0 "K2" H 3000 5783 60  0000 C CNN
@@ -625,7 +625,7 @@ F 3 "" H 3000 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K19
+L Smallpaw-rescue:KEYSW-keyboard_parts K19
 U 1 1 5B86B570
 P 3000 6400
 F 0 "K19" H 3000 6633 60  0000 C CNN
@@ -636,7 +636,7 @@ F 3 "" H 3000 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K35
+L Smallpaw-rescue:KEYSW-keyboard_parts K35
 U 1 1 5B86B577
 P 3000 7300
 F 0 "K35" H 3000 7533 60  0000 C CNN
@@ -647,7 +647,7 @@ F 3 "" H 3000 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K51
+L Smallpaw-rescue:KEYSW-keyboard_parts K51
 U 1 1 5B86B57E
 P 3000 8100
 F 0 "K51" H 3000 8333 60  0000 C CNN
@@ -658,7 +658,7 @@ F 3 "" H 3000 8100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K1
+L Smallpaw-rescue:KEYSW-keyboard_parts K1
 U 1 1 5B86B585
 P 2300 5550
 F 0 "K1" H 2300 5783 60  0000 C CNN
@@ -669,7 +669,7 @@ F 3 "" H 2300 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K18
+L Smallpaw-rescue:KEYSW-keyboard_parts K18
 U 1 1 5B86B58C
 P 2300 6400
 F 0 "K18" H 2300 6633 60  0000 C CNN
@@ -680,7 +680,7 @@ F 3 "" H 2300 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K34
+L Smallpaw-rescue:KEYSW-keyboard_parts K34
 U 1 1 5B86B593
 P 2300 7300
 F 0 "K34" H 2300 7533 60  0000 C CNN
@@ -691,7 +691,7 @@ F 3 "" H 2300 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K50
+L Smallpaw-rescue:KEYSW-keyboard_parts K50
 U 1 1 5B86B59A
 P 2300 8100
 F 0 "K50" H 2300 8333 60  0000 C CNN
@@ -878,7 +878,7 @@ F 3 "~" H 4100 8250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K8
+L Smallpaw-rescue:KEYSW-keyboard_parts K8
 U 1 1 5B8B9AAC
 P 7200 5550
 F 0 "K8" H 7200 5783 60  0000 C CNN
@@ -889,7 +889,7 @@ F 3 "" H 7200 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K25
+L Smallpaw-rescue:KEYSW-keyboard_parts K25
 U 1 1 5B8B9AB3
 P 7350 6400
 F 0 "K25" H 7350 6633 60  0000 C CNN
@@ -900,7 +900,7 @@ F 3 "" H 7350 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K41
+L Smallpaw-rescue:KEYSW-keyboard_parts K41
 U 1 1 5B8B9ABA
 P 7400 7300
 F 0 "K41" H 7400 7533 60  0000 C CNN
@@ -911,7 +911,7 @@ F 3 "" H 7400 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K57
+L Smallpaw-rescue:KEYSW-keyboard_parts K57
 U 1 1 5B8B9AC1
 P 7200 8100
 F 0 "K57" H 7200 8333 60  0000 C CNN
@@ -922,7 +922,7 @@ F 3 "" H 7200 8100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K7
+L Smallpaw-rescue:KEYSW-keyboard_parts K7
 U 1 1 5B8B9AC8
 P 6500 5550
 F 0 "K7" H 6500 5783 60  0000 C CNN
@@ -933,7 +933,7 @@ F 3 "" H 6500 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K24
+L Smallpaw-rescue:KEYSW-keyboard_parts K24
 U 1 1 5B8B9ACF
 P 6650 6400
 F 0 "K24" H 6650 6633 60  0000 C CNN
@@ -944,7 +944,7 @@ F 3 "" H 6650 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K40
+L Smallpaw-rescue:KEYSW-keyboard_parts K40
 U 1 1 5B8B9AD6
 P 6700 7300
 F 0 "K40" H 6700 7533 60  0000 C CNN
@@ -955,7 +955,7 @@ F 3 "" H 6700 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K56
+L Smallpaw-rescue:KEYSW-keyboard_parts K56
 U 1 1 5B8B9ADD
 P 6500 8100
 F 0 "K56" H 6500 8333 60  0000 C CNN
@@ -966,7 +966,7 @@ F 3 "" H 6500 8100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K6
+L Smallpaw-rescue:KEYSW-keyboard_parts K6
 U 1 1 5B8B9AE4
 P 5800 5550
 F 0 "K6" H 5800 5783 60  0000 C CNN
@@ -977,7 +977,7 @@ F 3 "" H 5800 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K23
+L Smallpaw-rescue:KEYSW-keyboard_parts K23
 U 1 1 5B8B9AEB
 P 5950 6400
 F 0 "K23" H 5950 6633 60  0000 C CNN
@@ -988,7 +988,7 @@ F 3 "" H 5950 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K39
+L Smallpaw-rescue:KEYSW-keyboard_parts K39
 U 1 1 5B8B9AF2
 P 6000 7300
 F 0 "K39" H 6000 7533 60  0000 C CNN
@@ -999,7 +999,7 @@ F 3 "" H 6000 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K55
+L Smallpaw-rescue:KEYSW-keyboard_parts K55
 U 1 1 5B8B9AF9
 P 5800 8100
 F 0 "K55" H 5800 8333 60  0000 C CNN
@@ -1010,7 +1010,7 @@ F 3 "" H 5800 8100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K5
+L Smallpaw-rescue:KEYSW-keyboard_parts K5
 U 1 1 5B8B9B00
 P 5100 5550
 F 0 "K5" H 5100 5783 60  0000 C CNN
@@ -1021,7 +1021,7 @@ F 3 "" H 5100 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K22
+L Smallpaw-rescue:KEYSW-keyboard_parts K22
 U 1 1 5B8B9B07
 P 5200 6400
 F 0 "K22" H 5200 6633 60  0000 C CNN
@@ -1032,7 +1032,7 @@ F 3 "" H 5200 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K38
+L Smallpaw-rescue:KEYSW-keyboard_parts K38
 U 1 1 5B8B9B0E
 P 5100 7300
 F 0 "K38" H 5100 7533 60  0000 C CNN
@@ -1043,7 +1043,7 @@ F 3 "" H 5100 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K54
+L Smallpaw-rescue:KEYSW-keyboard_parts K54
 U 1 1 5B8B9B15
 P 5100 8100
 F 0 "K54" H 5100 8333 60  0000 C CNN
@@ -1230,7 +1230,7 @@ F 3 "~" H 6900 8250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K12
+L Smallpaw-rescue:KEYSW-keyboard_parts K12
 U 1 1 5B8BEEF2
 P 10050 5550
 F 0 "K12" H 10050 5783 60  0000 C CNN
@@ -1241,7 +1241,7 @@ F 3 "" H 10050 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K29
+L Smallpaw-rescue:KEYSW-keyboard_parts K29
 U 1 1 5B8BEEF9
 P 10200 6400
 F 0 "K29" H 10200 6633 60  0000 C CNN
@@ -1252,7 +1252,7 @@ F 3 "" H 10200 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K45
+L Smallpaw-rescue:KEYSW-keyboard_parts K45
 U 1 1 5B8BEF00
 P 10250 7300
 F 0 "K45" H 10250 7533 60  0000 C CNN
@@ -1263,7 +1263,7 @@ F 3 "" H 10250 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K59
+L Smallpaw-rescue:KEYSW-keyboard_parts K59
 U 1 1 5B8BEF07
 P 10050 8100
 F 0 "K59" H 10050 8333 60  0000 C CNN
@@ -1274,7 +1274,7 @@ F 3 "" H 10050 8100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K11
+L Smallpaw-rescue:KEYSW-keyboard_parts K11
 U 1 1 5B8BEF0E
 P 9350 5550
 F 0 "K11" H 9350 5783 60  0000 C CNN
@@ -1285,7 +1285,7 @@ F 3 "" H 9350 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K28
+L Smallpaw-rescue:KEYSW-keyboard_parts K28
 U 1 1 5B8BEF15
 P 9500 6400
 F 0 "K28" H 9500 6633 60  0000 C CNN
@@ -1296,7 +1296,7 @@ F 3 "" H 9500 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K44
+L Smallpaw-rescue:KEYSW-keyboard_parts K44
 U 1 1 5B8BEF1C
 P 9550 7300
 F 0 "K44" H 9550 7533 60  0000 C CNN
@@ -1307,7 +1307,7 @@ F 3 "" H 9550 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K10
+L Smallpaw-rescue:KEYSW-keyboard_parts K10
 U 1 1 5B8BEF2A
 P 8650 5550
 F 0 "K10" H 8650 5783 60  0000 C CNN
@@ -1318,7 +1318,7 @@ F 3 "" H 8650 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K27
+L Smallpaw-rescue:KEYSW-keyboard_parts K27
 U 1 1 5B8BEF31
 P 8800 6400
 F 0 "K27" H 8800 6633 60  0000 C CNN
@@ -1329,7 +1329,7 @@ F 3 "" H 8800 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K43
+L Smallpaw-rescue:KEYSW-keyboard_parts K43
 U 1 1 5B8BEF38
 P 8850 7300
 F 0 "K43" H 8850 7533 60  0000 C CNN
@@ -1340,7 +1340,7 @@ F 3 "" H 8850 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K9
+L Smallpaw-rescue:KEYSW-keyboard_parts K9
 U 1 1 5B8BEF46
 P 7950 5550
 F 0 "K9" H 7950 5783 60  0000 C CNN
@@ -1351,7 +1351,7 @@ F 3 "" H 7950 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K26
+L Smallpaw-rescue:KEYSW-keyboard_parts K26
 U 1 1 5B8BEF4D
 P 8100 6400
 F 0 "K26" H 8100 6633 60  0000 C CNN
@@ -1362,7 +1362,7 @@ F 3 "" H 8100 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K42
+L Smallpaw-rescue:KEYSW-keyboard_parts K42
 U 1 1 5B8BEF54
 P 8150 7300
 F 0 "K42" H 8150 7533 60  0000 C CNN
@@ -1373,7 +1373,7 @@ F 3 "" H 8150 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K58
+L Smallpaw-rescue:KEYSW-keyboard_parts K58
 U 1 1 5B8BEF5B
 P 8650 8100
 F 0 "K58" H 8650 8333 60  0000 C CNN
@@ -1538,7 +1538,7 @@ F 3 "~" H 9750 8250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K13
+L Smallpaw-rescue:KEYSW-keyboard_parts K13
 U 1 1 5B8C0366
 P 10800 5550
 F 0 "K13" H 10800 5783 60  0000 C CNN
@@ -1549,7 +1549,7 @@ F 3 "" H 10800 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K30
+L Smallpaw-rescue:KEYSW-keyboard_parts K30
 U 1 1 5B8C036D
 P 10950 6400
 F 0 "K30" H 10950 6633 60  0000 C CNN
@@ -1560,7 +1560,7 @@ F 3 "" H 10950 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K46
+L Smallpaw-rescue:KEYSW-keyboard_parts K46
 U 1 1 5B8C0374
 P 11000 7300
 F 0 "K46" H 11000 7533 60  0000 C CNN
@@ -1604,7 +1604,7 @@ F 3 "~" H 10700 7450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K16
+L Smallpaw-rescue:KEYSW-keyboard_parts K16
 U 1 1 5B8C3BFE
 P 12900 5550
 F 0 "K16" H 12900 5783 60  0000 C CNN
@@ -1615,7 +1615,7 @@ F 3 "" H 12900 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K33
+L Smallpaw-rescue:KEYSW-keyboard_parts K33
 U 1 1 5B8C3C05
 P 13300 6400
 F 0 "K33" H 13300 6633 60  0000 C CNN
@@ -1626,7 +1626,7 @@ F 3 "" H 13300 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K49
+L Smallpaw-rescue:KEYSW-keyboard_parts K49
 U 1 1 5B8C3C0C
 P 13400 7300
 F 0 "K49" H 13400 7533 60  0000 C CNN
@@ -1637,7 +1637,7 @@ F 3 "" H 13400 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K62
+L Smallpaw-rescue:KEYSW-keyboard_parts K62
 U 1 1 5B8C3C13
 P 12900 8100
 F 0 "K62" H 12900 8333 60  0000 C CNN
@@ -1648,7 +1648,7 @@ F 3 "" H 12900 8100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K15
+L Smallpaw-rescue:KEYSW-keyboard_parts K15
 U 1 1 5B8C3C1A
 P 12200 5550
 F 0 "K15" H 12200 5783 60  0000 C CNN
@@ -1659,7 +1659,7 @@ F 3 "" H 12200 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K32
+L Smallpaw-rescue:KEYSW-keyboard_parts K32
 U 1 1 5B8C3C21
 P 12350 6400
 F 0 "K32" H 12350 6633 60  0000 C CNN
@@ -1670,7 +1670,7 @@ F 3 "" H 12350 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K48
+L Smallpaw-rescue:KEYSW-keyboard_parts K48
 U 1 1 5B8C3C28
 P 12500 7300
 F 0 "K48" H 12500 7533 60  0000 C CNN
@@ -1681,7 +1681,7 @@ F 3 "" H 12500 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K61
+L Smallpaw-rescue:KEYSW-keyboard_parts K61
 U 1 1 5B8C3C2F
 P 12200 8100
 F 0 "K61" H 12200 8333 60  0000 C CNN
@@ -1692,7 +1692,7 @@ F 3 "" H 12200 8100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K14
+L Smallpaw-rescue:KEYSW-keyboard_parts K14
 U 1 1 5B8C3C36
 P 11500 5550
 F 0 "K14" H 11500 5783 60  0000 C CNN
@@ -1703,7 +1703,7 @@ F 3 "" H 11500 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K31
+L Smallpaw-rescue:KEYSW-keyboard_parts K31
 U 1 1 5B8C3C3D
 P 11650 6400
 F 0 "K31" H 11650 6633 60  0000 C CNN
@@ -1714,7 +1714,7 @@ F 3 "" H 11650 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K47
+L Smallpaw-rescue:KEYSW-keyboard_parts K47
 U 1 1 5B8C3C44
 P 11700 7300
 F 0 "K47" H 11700 7533 60  0000 C CNN
@@ -1725,7 +1725,7 @@ F 3 "" H 11700 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K60
+L Smallpaw-rescue:KEYSW-keyboard_parts K60
 U 1 1 5B8C3C4B
 P 11100 8100
 F 0 "K60" H 11100 8333 60  0000 C CNN
@@ -1868,7 +1868,7 @@ F 3 "~" H 12600 8250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K17
+L Smallpaw-rescue:KEYSW-keyboard_parts K17
 U 1 1 5B8C3CA6
 P 13650 5550
 F 0 "K17" H 13650 5783 60  0000 C CNN
@@ -1879,7 +1879,7 @@ F 3 "" H 13650 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K63
+L Smallpaw-rescue:KEYSW-keyboard_parts K63
 U 1 1 5B8C3CBB
 P 13650 8100
 F 0 "K63" H 13650 8333 60  0000 C CNN
@@ -1912,7 +1912,7 @@ F 3 "~" H 13350 8250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K17.2
+L Smallpaw-rescue:KEYSW-keyboard_parts K17.2
 U 1 1 5B8F7E12
 P 13350 4850
 F 0 "K17.2" H 13350 5083 60  0000 C CNN
@@ -1923,7 +1923,7 @@ F 3 "" H 13350 4850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K48.2
+L Smallpaw-rescue:KEYSW-keyboard_parts K48.2
 U 1 1 5B8FA5D8
 P 14950 7300
 F 0 "K48.2" H 14950 7533 60  0000 C CNN
@@ -2630,26 +2630,52 @@ Wire Wire Line
 Connection ~ 2700 6800
 Wire Wire Line
 	2700 6800 4100 6800
-Text Label 4400 3250 2    50   ~ 0
+Text Label 4400 3150 2    50   ~ 0
 C2
-Text Label 4400 3050 2    50   ~ 0
-R4
 Text Label 6550 1650 0    50   ~ 0
+R4
+Text Label 6550 2450 0    50   ~ 0
 C0
-Text Label 6550 1750 0    50   ~ 0
+Text Label 6550 1950 0    50   ~ 0
 C1
-Text Label 6550 1550 0    50   ~ 0
+Text Label 4400 2150 2    50   ~ 0
 R0
-Text Label 6550 1450 0    50   ~ 0
+Text Label 6550 1550 0    50   ~ 0
 R1
 Text Label 6550 1350 0    50   ~ 0
 R2
-Text Label 6550 1850 0    50   ~ 0
+Text Label 6550 1450 0    50   ~ 0
 R3
-Text Label 6550 1950 0    50   ~ 0
-R4
-Text Label 6550 2450 0    50   ~ 0
+Text Label 6550 2650 0    50   ~ 0
 R6
 Text Label 6550 2350 0    50   ~ 0
 R5
+NoConn ~ 3350 4700
+NoConn ~ 4750 4800
+NoConn ~ 6150 4850
+NoConn ~ 1500 5850
+NoConn ~ 1350 6000
+NoConn ~ 1500 6700
+NoConn ~ 1300 6800
+NoConn ~ 1500 7600
+NoConn ~ 1250 7700
+NoConn ~ 1450 8450
+Text Label 6550 2550 0    50   ~ 0
+R7
+NoConn ~ 1250 8550
+Text Label 6550 2750 0    50   ~ 0
+C3
+NoConn ~ 7550 4850
+Text Label 6550 2850 0    50   ~ 0
+C4
+Text Label 6550 2950 0    50   ~ 0
+C5
+NoConn ~ 9000 4800
+NoConn ~ 10400 4800
+Text Label 6550 3050 0    50   ~ 0
+C6
+NoConn ~ 11750 4850
+Text Label 4400 3250 2    50   ~ 0
+C7
+NoConn ~ 12750 4850
 $EndSCHEMATC
