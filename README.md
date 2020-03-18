@@ -10,5 +10,3 @@ Latest render of PCB:
 To-do:
 
 - [ ] Mounting holes
-
-- [ ] Connect r/c to MCU
