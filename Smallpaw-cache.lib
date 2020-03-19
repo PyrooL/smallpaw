@@ -19,6 +19,29 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_Crystal_GND24_Small
+#
+DEF Device_Crystal_GND24_Small Y 0 40 Y N 1 F N
+F0 "Y" 50 175 50 H V L CNN
+F1 "Device_Crystal_GND24_Small" 50 100 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Crystal*
+$ENDFPLIST
+DRAW
+S -30 -60 30 60 0 1 0 N
+P 2 0 1 15 -50 -30 -50 30 N
+P 2 0 1 15 50 -30 50 30 N
+P 4 0 1 0 -50 -50 -50 -75 50 -75 50 -50 N
+P 4 0 1 0 -50 50 -50 75 50 75 50 50 N
+X 1 1 -100 0 50 R 50 50 1 1 P
+X 2 2 0 -125 50 U 50 50 1 1 P
+X 3 3 100 0 50 L 50 50 1 1 P
+X 4 4 0 125 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_D
 #
 DEF Device_D D 0 40 N N 1 F N
@@ -38,6 +61,26 @@ P 2 0 1 0 50 0 -50 0 N
 P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Polyfuse_Small
+#
+DEF Device_Polyfuse_Small F 0 0 N Y 1 F N
+F0 "F" -75 0 50 V V C CNN
+F1 "Device_Polyfuse_Small" 75 0 50 V V C CNN
+F2 "" 50 -200 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *polyfuse*
+ *PTC*
+$ENDFPLIST
+DRAW
+S -20 50 20 -50 0 1 0 N
+P 2 0 1 0 0 100 0 -100 N
+P 4 0 1 0 -40 50 -40 30 40 -30 40 -50 N
+X ~ 1 0 100 25 D 50 50 1 1 P
+X ~ 2 0 -100 25 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -163,20 +206,18 @@ X SHIELD 6 150 -350 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Smallpaw-rescue_XTAL_GND-keyboard_parts
+# power_+5V
 #
-DEF Smallpaw-rescue_XTAL_GND-keyboard_parts X 0 40 N N 1 F N
-F0 "X" 0 150 60 H V C CNN
-F1 "Smallpaw-rescue_XTAL_GND-keyboard_parts" 0 -150 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
-P 2 0 1 16 -100 100 -100 -100 N
-P 2 0 1 16 100 100 100 -100 N
-P 5 0 1 12 -50 50 50 50 50 -50 -50 -50 -50 50 f
-X 1 1 -300 0 200 R 40 40 1 1 P
-X 2 2 300 0 200 L 40 40 1 1 P
-X ~ 3 0 -200 50 U 50 50 1 1 P
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
